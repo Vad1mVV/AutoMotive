@@ -6,6 +6,10 @@ p {
 /* шрифты */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto&display=swap');
+.MontserratReg {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
 .MontserratSemiBold {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -86,4 +90,39 @@ i {
 }
 .story__text {
     margin-left: 20px;
+}
+
+/* pricing */
+
+.pricing {
+    text-align: center;
+    background-color: #efefef;
+}
+.item {
+    padding-top: 30px;
+    border-radius: 7px;
+    margin-right: 15px;
+    width: 32%;
+}
+.pricing__caption {
+    font-size: 40px;
+    text-align: center;
+}
+.pricing__button {
+    width: 50%;
+    padding: 8px 0px;
+    border-radius: 5px;
+    margin: 20px 0 20px 85px;
+}
+.pricing__button:hover {
+    background-color: #c62314;
+}
+.pricing__link {
+    text-decoration: none;
+}
+.pricing__button:hover .pricing__link {
+    background-color: #c62314
+}
+h3 {
+    font-size: 50px;
 }
