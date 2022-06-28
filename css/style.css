@@ -24,8 +24,14 @@ p {
 .text-darkPurple {
     color: #130e27;
 }
+.bg-darkPurple {
+    background-color: #130e27;
+}
 .text-red {
     color: #c62314;
+}
+.bg-red {
+    background-color: #c62314;
 }
 
 /* headre */
@@ -64,4 +70,20 @@ i {
 }
 .service__text {
     max-width: 70%;
+}
+
+/* story */
+
+.story .container .row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.story__button {
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 7px;
+}
+.story__text {
+    margin-left: 20px;
 }
