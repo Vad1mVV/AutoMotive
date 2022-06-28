@@ -1,0 +1,19 @@
+/* шрифты */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto&display=swap');
+
+/* headre */
+
+header {
+    background-color: red;
+    background-image: url('../img/Layer13.png');
+}
+.headre {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item:hover {
+    transition: 0.3s;
+    background-color: #130e27;
+    border-radius: 7px;
+}
