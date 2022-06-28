@@ -1,6 +1,29 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
 /* шрифты */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto&display=swap');
+.MontserratSemiBold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.MontserratBold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.RobotoReg {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* цвета */
+
+.fiolet {
+    color: #130e27;
+}
 
 /* headre */
 
@@ -17,3 +40,10 @@ header {
     background-color: #130e27;
     border-radius: 7px;
 }
+h1 {
+    font-size: 70px;
+}
+.headre__text {
+    margin-left: 20px;
+}
+
