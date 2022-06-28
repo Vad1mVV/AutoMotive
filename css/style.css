@@ -21,8 +21,11 @@ p {
 
 /* цвета */
 
-.fiolet {
+.text-darkPurple {
     color: #130e27;
+}
+.text-red {
+    color: #c62314;
 }
 
 /* headre */
@@ -47,3 +50,18 @@ h1 {
     margin-left: 20px;
 }
 
+/* services */
+
+.services__caption {
+    font-size: 40px;
+    margin-left: 20px;
+}
+i {
+    font-size: 140px;
+}
+.service {
+    text-align: center;
+}
+.service__text {
+    max-width: 70%;
+}
