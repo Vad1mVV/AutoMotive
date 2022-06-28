@@ -48,6 +48,9 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.nav-item {
+    margin-right: 5px;
+}
 .nav-item:hover {
     transition: 0.3s;
     background-color: #130e27;
@@ -125,4 +128,10 @@ i {
 }
 h3 {
     font-size: 50px;
+}
+
+/* footer */
+
+.footer__img {
+    text-align: end;
 }
