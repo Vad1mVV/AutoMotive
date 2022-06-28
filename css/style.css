@@ -3,41 +3,6 @@ p {
     padding: 0;
 }
 
-/* шрифты */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto&display=swap');
-.MontserratReg {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-}
-.MontserratSemiBold {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}
-.MontserratBold {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-.RobotoReg {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
-
-/* цвета */
-
-.text-darkPurple {
-    color: #130e27;
-}
-.bg-darkPurple {
-    background-color: #130e27;
-}
-.text-red {
-    color: #c62314;
-}
-.bg-red {
-    background-color: #c62314;
-}
-
 /* headre */
 
 header {
@@ -101,11 +66,18 @@ i {
     text-align: center;
     background-color: #efefef;
 }
-.item {
+.pricing__items {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pricing__item {
     padding-top: 30px;
     border-radius: 7px;
     margin-right: 15px;
-    width: 32%;
+    margin-bottom: 10px;
 }
 .pricing__caption {
     font-size: 40px;
@@ -115,7 +87,7 @@ i {
     width: 50%;
     padding: 8px 0px;
     border-radius: 5px;
-    margin: 20px 0 20px 85px;
+    margin: 20px 0;
 }
 .pricing__button:hover {
     background-color: #c62314;
@@ -133,5 +105,40 @@ h3 {
 /* footer */
 
 .footer__img {
-    text-align: end;
+    
+}
+
+/* шрифты */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto&display=swap');
+.MontserratReg {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.MontserratSemiBold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.MontserratBold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.RobotoReg {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* цвета */
+
+.text-darkPurple {
+    color: #130e27;
+}
+.bg-darkPurple {
+    background-color: #130e27;
+}
+.text-red {
+    color: #c62314;
+}
+.bg-red {
+    background-color: #c62314;
 }
