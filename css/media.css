@@ -1,5 +1,12 @@
-@media screen and (min-width:768px) {
-    .story__text {
-        margin-bottom: 0px;
+@media screen and (max-width:576px) {
+    .header__img {
+        width: 70%;
+    }
+    .menu {
+        margin-right: 10px;
+        display: block;
+    }
+    .container-fluid {
+        display: block;
     }
 }
