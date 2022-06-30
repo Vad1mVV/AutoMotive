@@ -8,6 +8,7 @@ p {
 header {
     background-color: red;
     background-image: url('../img/Layer13.png');
+    background-size: cover;
 }
 .headre {
     display: flex;
@@ -51,7 +52,7 @@ i {
     justify-content: space-between;
     padding-top: 5px;
 }
-.story__button {
+.story__link {
     text-decoration: none;
     padding: 15px 40px;
     border-radius: 7px;

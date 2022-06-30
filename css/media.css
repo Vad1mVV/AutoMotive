@@ -1,6 +1,5 @@
-@media screen and (max-width:992px) {
-    .d1 {
-        display: flex;
-        justify-content: space-between;
+@media screen and (min-width:768px) {
+    .story__text {
+        margin-bottom: 0px;
     }
 }
