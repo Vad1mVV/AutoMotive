@@ -1,0 +1,6 @@
+@media screen and (max-width:992px) {
+    .d1 {
+        display: flex;
+        justify-content: space-between;
+    }
+}
