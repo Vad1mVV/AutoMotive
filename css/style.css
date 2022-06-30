@@ -87,7 +87,7 @@ i {
     width: 50%;
     padding: 8px 0px;
     border-radius: 5px;
-    margin: 20px 0;
+    margin: 20px 0;;
 }
 .pricing__button:hover {
     background-color: #c62314;
@@ -104,6 +104,9 @@ h3 {
 
 /* footer */
 
+.footer__text {
+
+}
 .footer__img {
     
 }
