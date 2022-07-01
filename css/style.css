@@ -14,14 +14,27 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.nav-item {
-    margin-right: 5px;
+
+.hamburger-menu > input {
+    visibility: hidden;
 }
-.nav-item:hover {
-    transition: 0.3s;
+.menu__box {
+    list-style: none;
+    display: flex;
+}
+.menu__item {
+    text-decoration: none;
+    margin: 7px;
+    padding: 5px 10px;
+    color: white;
+}
+.menu__item:hover {
+    border: 0px solid #130e27;
     background-color: #130e27;
     border-radius: 7px;
+    transition: 0.2s;
 }
+
 h1 {
     font-size: 70px;
 }
@@ -52,10 +65,14 @@ i {
     justify-content: space-between;
     padding-top: 5px;
 }
-.story__link {
+.story__button {
     text-decoration: none;
     padding: 15px 40px;
     border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 .story__text {
     margin-left: 20px;
@@ -88,16 +105,11 @@ i {
     width: 50%;
     padding: 8px 0px;
     border-radius: 5px;
-    margin: 20px 0;;
+    margin: 20px 0;
+    text-decoration: none;
 }
 .pricing__button:hover {
     background-color: #c62314;
-}
-.pricing__link {
-    text-decoration: none;
-}
-.pricing__button:hover .pricing__link {
-    background-color: #c62314
 }
 h3 {
     font-size: 50px;
@@ -105,9 +117,6 @@ h3 {
 
 /* footer */
 
-footer {
-    
-}
 .footer__text {
     display: flex;
     align-items: center;
@@ -115,6 +124,12 @@ footer {
 .footer__img {
     display: flex;
     justify-content: end;
+}
+.footer__border {
+    margin: 0 5px;
+    padding: 0 5px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
 }
 
 /* шрифты */

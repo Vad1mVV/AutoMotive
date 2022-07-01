@@ -21,34 +21,21 @@
                     <div class="img-fluid">
                         <img src="img/Logo.png" class="header__img">
                     </div>
-                    <div class="menu">
-                        <nav class="navbar navbar-expand-md text-align-center">
-                            <div class="container-fluid">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link text-white text-uppercase" href="#">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-white text-uppercase" href="#">about</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-white text-uppercase" href="#">services</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-white text-uppercase" href="#">gallery</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-white text-uppercase" href="#">contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
+
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li><a class="menu__item text-uppercase MontserratSemiBold" href="#">Home</a></li>
+                            <li><a class="menu__item text-uppercase MontserratSemiBold" href="#">about</a></li>
+                            <li><a class="menu__item text-uppercase MontserratSemiBold" href="#">services</a></li>
+                            <li><a class="menu__item text-uppercase MontserratSemiBold" href="#">gallery</a></li>
+                            <li><a class="menu__item text-uppercase MontserratSemiBold" href="#">contact</a></li>
+                        </ul>
                     </div>
+
                 </div>
                 <div class="col-xl-5 col-lg-7 col-md-8 col-sm-10 headre__text">
                     <h1 class="mt-5">
@@ -114,8 +101,8 @@
                         We are in business for over 6 years providing amazing services to client and people love them to the core. View our story to know more.
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 mt-4 story__button">
-                    <a href="#1" class="text-uppercase text-white bg-red story__link MontserratSemiBold">our story</a>
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <a href="#1" class="text-uppercase text-white bg-red story__button MontserratSemiBold">our story</a>
                 </div>
             </div>
         </div>
@@ -156,9 +143,7 @@
                     <p class="RobotoReg">
                         --
                     </p>
-                    <div class="bg-darkPurple pricing__button d-block mx-auto">
-                        <a href="#1" class="text-uppercase pricing__link text-white MontserratReg">try</a>
-                    </div>
+                    <a href="#1" class="bg-darkPurple d-block mx-auto text-uppercase pricing__button text-white MontserratReg">try</a>
                 </div>
 
                 <div class="col-lg-3 col-md-5 col-sm-7 bg-white text-align-center pricing__item mb-3">
@@ -183,9 +168,7 @@
                     <p class="RobotoReg">
                         --
                     </p>
-                    <div class="bg-darkPurple pricing__button d-block mx-auto">
-                        <a href="#1" class="text-uppercase pricing__link text-white bg-darkPurple MontserratReg">sign up</a>
-                    </div>
+                    <a href="#1" class="bg-darkPurple d-block mx-auto text-uppercase pricing__button text-white bg-darkPurple MontserratReg">sign up</a>
                 </div>
 
                 <div class="col-lg-3 col-md-5 col-sm-7 bg-white text-align-center pricing__item mb-3">
@@ -210,9 +193,7 @@
                     <p class="RobotoReg">
                         Whatever You Need
                     </p>
-                    <div class="bg-darkPurple pricing__button d-block mx-auto">
-                        <a href="#1" class="text-uppercase pricing__link text-white bg-darkPurple MontserratReg">sign up</a>
-                    </div>
+                    <a href="#1" class="bg-darkPurple d-block mx-auto text-uppercase pricing__button text-white bg-darkPurple MontserratReg">sign up</a>
                 </div>
 
             </div>
@@ -224,16 +205,22 @@
     <footer class="bg-darkPurple">
         <div class="container">
             <div class="row">
-                <div class="mt-5 mb-5 justify-content-space-between">
-                    <div class="footer__text">
+                <div class="mt-5 mb-5 justify-content-space-between d-flex ">
+                    <div class="footer__text col-lg-6 col-md-6 col-xs-12">
                         <p class="text-white d-inline">
-                            All Rights Reserved |  2016  |  Designed with love by
+                            All Rights Reserved
                         </p>
-                        <p class="text-red d-inline">
-                            DesignCoon
+                        <p class="text-white d-inline footer__border">
+                            2016
+                        </p>
+                        <p class="text-white d-inline">
+                            Designed with love by
+                            <span class="text-red">
+                                DesignCoon
+                            </span>
                         </p>
                     </div>
-                    <div class="footer__img img-fluid">
+                    <div class="footer__img img-fluid col-lg-6 col-md-6 col-xs-12">
                         <img src="img/Logo copy.png">
                     </div>
                 </div>
